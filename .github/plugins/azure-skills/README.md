@@ -75,6 +75,8 @@ Install the **Azure MCP** extension from the Visual Studio Marketplace:
 
 The Azure MCP extension will also install a companion extension that brings the Azure skills into VS Code. Together they configure the Azure MCP Server, Foundry MCP, and the full skills layer automatically.
 
+> **Note:** The skills extension requires **Git CLI** to be installed on your machine. If you don't have it, ask Copilot to help you install Git for your OS.
+
 ### Claude Code
 
 **Add the marketplace** (first time only):
@@ -94,14 +96,6 @@ claude plugin install azure@azure-skills
 ```bash
 claude plugin update azure
 ```
-
-### What the install should add
-
-A successful install gives you:
-
-- The Azure skills under `.github/plugins/azure-skills/`
-- MCP configuration for the Azure MCP Server and Foundry MCP
-- A ready-to-use Azure workflow layer in your agent
 
 ## Verify the installation
 
