@@ -7,7 +7,7 @@
     "url": "https://www.microsoft.com"
   },
   "homepage": "https://github.com/microsoft/github-copilot-for-azure",
-  "repository": "https://github.com/microsoft/GitHub-Copilot-for-Azure",
+  "repository": "https://github.com/microsoft/azure-skills",
   "license": "MIT",
   "keywords": ["azure", "cloud", "infrastructure", "deployment", "microsoft", "devops"],
   "skills": "./skills/",
